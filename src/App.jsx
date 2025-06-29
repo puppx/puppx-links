@@ -10,12 +10,16 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { 
   faGithub, 
-  faLinkedin,
-  faCodepen
+  faInstagram,
+  faDiscord
 } from '@fortawesome/free-brands-svg-icons';
 import { profileConfig, linksConfig, linkCategories, themeConfig } from './config/linkConfig';
 
 function App() {
+  // Debug: Check if profileConfig is being imported correctly
+  console.log('Profile Config:', profileConfig);
+  console.log('Theme Config:', themeConfig);
+  
   const getIcon = (iconName, iconType = 'solid') => {
     const iconMap = {
       solid: {
@@ -29,8 +33,8 @@ function App() {
       },
       brands: {
         'github': faGithub,
-        'linkedin': faLinkedin,
-        'codepen': faCodepen
+        'instagram': faInstagram,
+        'discord': faDiscord
       }
     };
     
@@ -54,7 +58,7 @@ function App() {
     <div className={`min-h-screen bg-gradient-to-br ${themeConfig.background} py-8 px-4`}>
       <div className="max-w-md mx-auto">
         {/* Profile Section */}
-        <div className={`${themeConfig.cardBackground} backdrop-blur-md border ${themeConfig.cardBorder} rounded-3xl p-8 shadow-2xl text-center ${themeConfig.textPrimary} mb-8 animate-fade-in-up tech-glow`}>
+        <div className={`${themeConfig.cardBackground} backdrop-blur-md border ${themeConfig.cardBorder} rounded-3xl p-8 shadow-2xl text-center ${themeConfig.textPrimary} mb-8 tech-glow`}>
           <div className="relative mb-6">
             <img
               src={profileConfig.avatar}

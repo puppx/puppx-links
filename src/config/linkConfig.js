@@ -2,9 +2,9 @@
 // Customize your profile and links here
 
 export const profileConfig = {
-  name: "Alex Chen",
+  name: "Pheeraphat",
   title: "IT Student",
-  avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face&auto=format"
+  avatar: "https://cdn.discordapp.com/attachments/1161136087100567563/1342626500955865199/5ABC6765-D429-4D47-B1E3-51EE1785DDF3.jpg?ex=6862691e&is=6861179e&hm=78960911b3f6a4a58c7ccb10ef0d18356e356ca38223bc16f13920705e8ccf75&"
 };
 
 export const linkCategories = {
@@ -24,7 +24,7 @@ export const linksConfig = [
   // Tech Projects
   {
     title: "GitHub Profile",
-    url: "https://github.com/yourusername",
+    url: "https://github.com/puppx",
     description: "My coding projects & repositories",
     category: "TECH",
     icon: "github",
@@ -32,33 +32,33 @@ export const linksConfig = [
   },
   {
     title: "Portfolio",
-    url: "https://yourportfolio.dev",
+    url: "https://pheeraphat-portfolio-new.vercel.app/",
     description: "Web development projects",
     category: "TECH",
     icon: "laptop-code",
     iconType: "solid"
   },
-  {
-    title: "CodePen",
-    url: "https://codepen.io/yourusername",
-    description: "Frontend experiments & demos",
-    category: "TECH",
-    icon: "codepen",
-    iconType: "brands"
-  },
 
   // Connect
   {
-    title: "LinkedIn",
-    url: "https://linkedin.com/in/yourusername",
-    description: "Professional network",
+    title: "Instagram",
+    url: "https://instagram.com/_.pup.06",
+    description: "Follow my journey",
     category: "CONNECT",
-    icon: "linkedin",
+    icon: "instagram",
+    iconType: "brands"
+  },
+  {
+    title: "Discord",
+    url: "https://discord.gg/VwjEjaABG4",
+    description: "Join my community",
+    category: "CONNECT",
+    icon: "discord",
     iconType: "brands"
   },
   {
     title: "Email",
-    url: "mailto:your.email@university.edu",
+    url: "mailto:pheeraphat.bunliang@outlook.com",
     description: "Get in touch",
     category: "CONNECT",
     icon: "envelope",
