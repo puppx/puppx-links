@@ -58,24 +58,28 @@ function App() {
     <div className={`min-h-screen bg-gradient-to-br ${themeConfig.background} py-8 px-4`}>
       <div className="max-w-md mx-auto">
         {/* Profile Section */}
-        <div className={`${themeConfig.cardBackground} backdrop-blur-md border ${themeConfig.cardBorder} rounded-3xl p-8 shadow-2xl text-center ${themeConfig.textPrimary} mb-8 tech-glow`}>
-          <div className="relative mb-6">
-            <img
-              src={profileConfig.avatar}
-              alt={profileConfig.name}
-              className="w-28 h-28 rounded-full mx-auto border-4 border-blue-500/50 shadow-lg object-cover ring-4 ring-blue-500/20"
-            />
-            <div className="absolute -bottom-2 -right-2 w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full border-4 border-slate-800 flex items-center justify-center shadow-lg animate-pulse">
-              <FontAwesomeIcon icon={faMicrochip} className="text-white text-sm" />
+        <div className={`${themeConfig.cardBackground} backdrop-blur-md border ${themeConfig.cardBorder} rounded-3xl p-8 shadow-2xl ${themeConfig.textPrimary} mb-8 tech-glow`}>
+          <div className="flex items-center space-x-6">
+            <div className="relative flex-shrink-0">
+              <img
+                src={profileConfig.avatar}
+                alt={profileConfig.name}
+                className="w-20 h-20 rounded-full border-4 border-blue-500/50 shadow-lg object-cover ring-4 ring-blue-500/20"
+              />
+              <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full border-2 border-slate-800 flex items-center justify-center shadow-lg animate-pulse">
+                <FontAwesomeIcon icon={faMicrochip} className="text-white text-xs" />
+              </div>
+            </div>
+            
+            <div className="flex-1">
+              <h1 className="text-2xl font-bold mb-2 bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent">
+                {profileConfig.name}
+              </h1>
+              <p className="text-blue-400 font-semibold text-lg tracking-wide">
+                {profileConfig.title}
+              </p>
             </div>
           </div>
-          
-          <h1 className="text-3xl font-bold mb-3 bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent">
-            {profileConfig.name}
-          </h1>
-          <p className="text-blue-400 font-semibold text-lg tracking-wide">
-            {profileConfig.title}
-          </p>
         </div>
 
         {/* Links Section */}
