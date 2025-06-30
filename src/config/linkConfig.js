@@ -31,7 +31,7 @@ export const linksConfig = [
     iconType: "brands"
   },
   {
-    title: "Portfolio",
+    title: "Portfolio Website",
     url: "https://portfolio.puppx.top/",
     description: "Web development projects",
     category: "TECH",
