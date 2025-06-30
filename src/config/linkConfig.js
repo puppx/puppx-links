@@ -32,7 +32,7 @@ export const linksConfig = [
   },
   {
     title: "Portfolio",
-    url: "https://pheeraphat-portfolio-new.vercel.app/",
+    url: "https://portfolio.puppx.top/",
     description: "Web development projects",
     category: "TECH",
     icon: "laptop-code",
