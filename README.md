@@ -111,17 +111,6 @@ puppx-links/
 npm run build
 ```
 
-### Deploy to Vercel
-
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run: `vercel`
-3. Follow the prompts
-
-### Deploy to Netlify
-
-1. Build the project: `npm run build`
-2. Drag and drop the `dist` folder to [Netlify](https://netlify.com)
-
 ## 🤝 Contributing
 
 1. Fork the repository
